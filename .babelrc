@@ -1,0 +1,15 @@
+{
+  "presets": [
+    ["@babel/preset-env", {
+      "targets": {
+        "node": "current"
+      }
+    }]
+  ],
+  "plugins": ["styled-components", "transform-class-properties"],
+  "env": {
+    "test": {
+      "presets": [["@babel/preset-env"], "@babel/react"]
+    }
+  }
+}

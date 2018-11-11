@@ -1,0 +1,6 @@
+export const HANDLE_RADIO_EVENT = 'HANDLE_RADIO_EVENT';
+export const HANDLE_SELECT_EVENT = 'HANDLE_SELECT_EVENT';
+export const CHANGE_IMG = 'CHANGE_IMG';
+export const SET_CONTENT = 'SET_CONTENT';
+export const ERROR = 'ERROR';
+export const SET_FILTERED = 'SET_FILTERED';

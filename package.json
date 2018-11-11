@@ -1,7 +1,7 @@
 {
-  "name": "react-hot-express-template",
+  "name": "Synths",
   "version": "1.0.0",
-  "description": "react-hot-express-template",
+  "description": "Synths",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js --exec babel-node --watch src/server --watch build",
@@ -13,10 +13,15 @@
     "test": "jest"
   },
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": ""
   },
-  "author": "Jon Coe",
+  "author": "",
   "license": "UNLICENSED",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.46",
     "@babel/node": "^7.0.0-beta.46",
@@ -25,9 +30,11 @@
     "babel-core": "^7.0.0-0",
     "babel-jest": "^22.4.3",
     "babel-loader": "8.0.0-beta.2",
+    "babel-plugin-styled-components": "^1.7.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-polyfill": "^6.26.0",
     "cross-env": "^5.2.0",
-    "css-loader": "^0.28.11",
+    "css-loader": "^1.0.1",
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "eslint": "^4.19.1",
@@ -38,13 +45,14 @@
     "html-webpack-plugin": "^3.2.0",
     "jest": "^22.4.3",
     "mini-css-extract-plugin": "^0.4.0",
-    "node-sass": "^4.9.0",
     "nodemon": "^1.17.3",
     "optimize-css-assets-webpack-plugin": "^4.0.1",
-    "sass-loader": "^7.0.1",
-    "style-loader": "^0.21.0",
+    "style-loader": "^0.23.1",
     "uglifyjs-webpack-plugin": "^1.2.7",
     "webpack-cli": "^2.1.2",
+    "webpack-dev-middleware": "^3.1.3",
+    "webpack-dev-server": "^3.1.5",
+    "webpack-hot-middleware": "^2.22.1",
     "webpack-merge": "^4.1.2",
     "webpack-node-externals": "^1.7.2"
   },
@@ -62,11 +70,10 @@
     "react-hot-loader": "^4.1.2",
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.3.1",
+    "react-virtualized": "^9.21.0",
     "redux": "^4.0.0",
     "redux-thunk": "^2.3.0",
-    "webpack": "^4.7.0",
-    "webpack-dev-middleware": "^3.1.3",
-    "webpack-dev-server": "^3.1.5",
-    "webpack-hot-middleware": "^2.22.1"
+    "styled-components": "^3.4.9",
+    "webpack": "^4.7.0"
   }
 }
